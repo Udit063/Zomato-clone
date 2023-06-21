@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.image {
+    position: relative;
+    width: 100%;
+    height: 450px;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.header-body {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+
+.container {
+    display: flex;
+    padding: 36px;
+    margin-left: 10vw;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    margin-right: 10vw;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 2vw;
+    font-size: 18px;
+}
+
+nav ul li a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.center {
+    top: 30vh;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zomato {
+    text-align: center;
+    align-items: center;
+    font-size: 85px;
+    font-weight: 800;
+}
+
+.content {
+    font-size: 33px;
+}
+
+.search {
+    margin-top: 20px;
+    width: 600px;
+    display: flex;
+    height: 35px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.img1 {
+    padding: 5px;
+    width: 35px;
+}
+
+.location {
+    color: none;
+    margin-top: 6px;
+    width: 50px;
+}
+
+#place {
+    width: 170px;
+    border: none;
+    background-color: white;
+    padding: 2px;
+    border-right: 1px solid black;
+}
+
+.searchi {
+    height: 20px;
+    padding-left: 130px;
+    margin-top: 7px;
+}
+
+#searchbar {
+    width: 338px;
+    height: 21px;
+    margin-top: 7px;
+    margin-left: 8px;
+    border: white;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.zbody{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.image1, .image2, .image3{
+        object-fit: cover;
+        width: 320px;
+        height: 145px;
+        border-radius: 10px 10px 0 0;
+}
+
+.part1, .part2, .part3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 220px;
+}
+
+.c12, .c22, .c32{
+    color: gray;
+    margin-top: -11px;
+    font-size: 15px;
+}
+
+.c1, .c2, .c3{
+    margin-left: 10px;
+}
+
+.c11, .c21, .c31{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
